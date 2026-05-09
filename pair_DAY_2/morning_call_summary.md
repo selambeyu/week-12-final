@@ -1,0 +1,3 @@
+## Morning Call Summary
+
+The discussion with Birikity helped me refine my initial question from a broad assumption that schemas improve reliability into a more precise, token-level inquiry: what actually changes between prompt-only instructions and schema-constrained decoding during generation? It also clarified a related causal question about reasoning—whether intermediate steps genuinely influence a model’s final verdict, or whether they are generated after the model has already settled on an answer. We grounded this in the Week 11 judge and rubric setup, where the model evaluates signal direction, ICP fit, and pitch framing before producing a verdict. 
