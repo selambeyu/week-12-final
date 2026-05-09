@@ -1,0 +1,3 @@
+- **Hu et al. (2021) — LoRA**: the original paper, Section 4 covers the rank ablation experiments directly. Their finding: r=4 matches r=64 on most tasks, and higher rank helps only when the fine-tuning distribution is highly diverse.
+- **Aghajanyan et al. (2020) — Intrinsic Dimensionality**: explains why the low-rank approximation works in principle, not just empirically.
+- **PEFT library**: `model.print_trainable_parameters()` tells you exactly what fraction of the model you are updating at any rank — run it before committing to a rank.
